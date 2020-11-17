@@ -140,8 +140,8 @@ function onWheel(event) {
 		amountSet();
 	}
 
-	if (curElem.value > 255) {
-		curElem.value = 255;
+	if (curElem.value > 4000000000) {
+		curElem.value = 4000000000;
 	} else if (curElem.value < 0) {
 		curElem.value = 0;
 	}
