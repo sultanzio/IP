@@ -38,7 +38,7 @@ function amountSet() {
 
 function ipGen() {
 
-	if (ipAmount > 4000000000) return(alertBox(false, "You cannot generate more than 255 IP's at a time"));
+	if (ipAmount > 4000000000 ) return(alertBox(false, "Max 4Billion Integer"));
 
 	document.getElementById('ipOut').innerHTML = '';
 
